@@ -47,8 +47,10 @@ class LoginViewModel: ObservableObject {
             case .success(let user):
                 self?.user = user
                 self?.emailAuth = true
+                self?.login = true
             case .failure(let error):
                 self?.messageError = error.localizedDescription
+                self?.login = false
             }
             self?.isLoading = false
         }

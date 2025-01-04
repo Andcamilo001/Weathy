@@ -8,29 +8,34 @@
 import SwiftUI
 import AuthenticationServices
 import DSCore
+import TabBarHome
 
 public struct Login: View {
     
     // MARK: - Frames
     private var frames: Frames = Frames()
-    
+    // MARK: - Properties
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var title: String = "Bienvenido"
     @State private var subtitle: String = "Loguear"
     @State private var textButtonEmail: String = "Iniciar sesión con correo"
     @State private var textButtonGoogle: String = "Iniciar sesión con Google"
-    @State private var login: Bool = false
     @State private var message: String = ""
     @ObservedObject var googleAuthentication: GoogleViewModel = GoogleViewModel()
     @ObservedObject var viewModel: LoginViewModel = LoginViewModel()
     @State private var loginSucess: Bool = false
+    @ObservedObject var logout = Logout.shared
     
     public init() { }
     
     public var body: some View {
         NavigationView {
             ZStack {
+                NavigationLink(destination: TabBarHomeView()
+                                                .navigationBarHidden(true)
+                                                .navigationBarBackButtonHidden(true),
+                               isActive: $loginSucess) { }
                 gradient()
                 VStack {
                     title(with: title)
@@ -38,8 +43,8 @@ public struct Login: View {
                     mail()
                     credentials()
                     loginButton()
-                        .padding(.bottom, login || message.isEmpty ? frames.height1 : frames.height2)
-                    if !login && !message.isEmpty {
+                        .padding(.bottom, loginSucess || message.isEmpty ? frames.height1 : frames.height2)
+                    if !loginSucess && !message.isEmpty {
                         failLogin(with: message)
                     }
                     googleButton()
@@ -48,7 +53,14 @@ public struct Login: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .onChange(of: googleAuthentication.googleAuth) { googleAuth in
-                self.login = googleAuth
+                self.loginSucess = googleAuth
+            }
+            .onReceive(logout.$logout) { shouldLogout in
+                if shouldLogout {
+                    googleAuthentication.googleAuth = false
+                    self.loginSucess = false
+                    Logout.shared.logout = false
+                }
             }
         }
         .navigationBarHidden(true)
@@ -139,9 +151,9 @@ public struct Login: View {
                     .onDisappear {
                         if !viewModel.login {
                             message = "Usuario o contraseña erradas por favor intenta de nuevo"
-                            login = false
+                            loginSucess = false
                         } else {
-                            login = true
+                            loginSucess = true
                         }
                     }
             } else {

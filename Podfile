@@ -37,6 +37,7 @@ end
 
 def tab_pods
   pod 'Home', :path => 'DevelopmentModules/Home'
+  pod 'Favorites', :path => 'DevelopmentModules/Favorites'
 end
 
 target 'Weathy' do
@@ -49,6 +50,7 @@ target 'Weathy' do
   network_pods
   firebase_pods
   net_pod
+  pod 'WeathyLogin', :path => 'DevelopmentModules/WeathyLogin'
 end
 
 # Modules

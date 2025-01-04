@@ -12,6 +12,12 @@
 		ED4ABDF82D28AD8000215738 /* Favorites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4ABDEF2D28AD8000215738 /* Favorites.framework */; };
 		ED4ABDFD2D28AD8000215738 /* FavoritesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABDFC2D28AD8000215738 /* FavoritesTests.swift */; };
 		ED4ABDFE2D28AD8000215738 /* Favorites.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4ABDF22D28AD8000215738 /* Favorites.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED4ABE8F2D29A68600215738 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE8E2D29A68600215738 /* FavoritesCell.swift */; };
+		ED4ABE912D29A72000215738 /* FavoritesLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE902D29A72000215738 /* FavoritesLoad.swift */; };
+		ED4ABE932D29A89600215738 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE922D29A89600215738 /* FavoritesViewController.swift */; };
+		ED4ABE952D29AAD700215738 /* FavoritesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE942D29AAD700215738 /* FavoritesPresenter.swift */; };
+		ED4ABE972D29AB6900215738 /* FavoritesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE962D29AB6900215738 /* FavoritesRouter.swift */; };
+		ED4ABE992D29ABD400215738 /* FavoritesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE982D29ABD400215738 /* FavoritesInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		ED4ABDF22D28AD8000215738 /* Favorites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Favorites.h; sourceTree = "<group>"; };
 		ED4ABDF72D28AD8000215738 /* FavoritesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoritesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4ABDFC2D28AD8000215738 /* FavoritesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTests.swift; sourceTree = "<group>"; };
+		ED4ABE8E2D29A68600215738 /* FavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
+		ED4ABE902D29A72000215738 /* FavoritesLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesLoad.swift; sourceTree = "<group>"; };
+		ED4ABE922D29A89600215738 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		ED4ABE942D29AAD700215738 /* FavoritesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPresenter.swift; sourceTree = "<group>"; };
+		ED4ABE962D29AB6900215738 /* FavoritesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRouter.swift; sourceTree = "<group>"; };
+		ED4ABE982D29ABD400215738 /* FavoritesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesInteractor.swift; sourceTree = "<group>"; };
 		F34E89437C1B026B00B5751F /* Pods-Favorites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favorites.release.xcconfig"; path = "Target Support Files/Pods-Favorites/Pods-Favorites.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +118,11 @@
 		ED4ABDF12D28AD8000215738 /* Favorites */ = {
 			isa = PBXGroup;
 			children = (
+				ED4ABE8D2D29A63D00215738 /* Entity */,
+				ED4ABE8C2D29A63300215738 /* Interactor */,
+				ED4ABE8B2D29A62A00215738 /* Presenter */,
+				ED4ABE8A2D29A62300215738 /* Router */,
+				ED4ABE892D29A61A00215738 /* View */,
 				ED4ABDF22D28AD8000215738 /* Favorites.h */,
 			);
 			path = Favorites;
@@ -117,6 +134,47 @@
 				ED4ABDFC2D28AD8000215738 /* FavoritesTests.swift */,
 			);
 			path = FavoritesTests;
+			sourceTree = "<group>";
+		};
+		ED4ABE892D29A61A00215738 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED4ABE8E2D29A68600215738 /* FavoritesCell.swift */,
+				ED4ABE922D29A89600215738 /* FavoritesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED4ABE8A2D29A62300215738 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				ED4ABE962D29AB6900215738 /* FavoritesRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		ED4ABE8B2D29A62A00215738 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				ED4ABE942D29AAD700215738 /* FavoritesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		ED4ABE8C2D29A63300215738 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				ED4ABE982D29ABD400215738 /* FavoritesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		ED4ABE8D2D29A63D00215738 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				ED4ABE902D29A72000215738 /* FavoritesLoad.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +242,7 @@
 				TargetAttributes = {
 					ED4ABDEE2D28AD8000215738 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 					ED4ABDF62D28AD8000215738 = {
 						CreatedOnToolsVersion = 15.3;
@@ -295,6 +354,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4ABE992D29ABD400215738 /* FavoritesInteractor.swift in Sources */,
+				ED4ABE972D29AB6900215738 /* FavoritesRouter.swift in Sources */,
+				ED4ABE8F2D29A68600215738 /* FavoritesCell.swift in Sources */,
+				ED4ABE932D29A89600215738 /* FavoritesViewController.swift in Sources */,
+				ED4ABE952D29AAD700215738 /* FavoritesPresenter.swift in Sources */,
+				ED4ABE912D29A72000215738 /* FavoritesLoad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +508,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -474,6 +540,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -485,6 +552,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -526,6 +594,7 @@
 			baseConfigurationReference = 1ECC120079BC5CFDDFFCFCE5 /* Pods-Favorites-FavoritesTests.debug.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K357BR6MN2;
@@ -548,6 +617,7 @@
 			baseConfigurationReference = BB15EB49003E65A7EDD5C73C /* Pods-Favorites-FavoritesTests.release.xcconfig */;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K357BR6MN2;

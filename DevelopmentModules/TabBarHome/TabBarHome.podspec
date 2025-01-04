@@ -18,4 +18,5 @@ TabBarHome
 
   # Dependencias
   s.dependency 'Home'
+  s.dependency 'Favorites'
 end

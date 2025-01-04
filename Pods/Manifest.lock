@@ -20,6 +20,7 @@ PODS:
     - CwlMachBadInstructionHandler (~> 2.2.2)
     - CwlPosixPreconditionTesting (~> 2.2.2)
   - DSCore (1.0.0)
+  - Favorites (1.0.0)
   - FirebaseAppCheckInterop (11.6.0)
   - FirebaseAuth (11.6.0):
     - FirebaseAppCheckInterop (~> 11.0)
@@ -111,11 +112,21 @@ PODS:
   - RemoteAssets (1.0.0):
     - lottie-ios
   - TabBarHome (1.0.0):
+    - Favorites
     - Home
+  - WeathyLogin (1.0.0):
+    - DSCore
+    - FirebaseAuth
+    - FirebaseCore
+    - GoogleSignIn
+    - lottie-ios
+    - RemoteAssets
+    - TabBarHome
 
 DEPENDENCIES:
   - Alamofire
   - DSCore (from `DevelopmentModules/DSCore`)
+  - Favorites (from `DevelopmentModules/Favorites`)
   - FirebaseAuth
   - FirebaseCore
   - FirebaseUI/Auth
@@ -130,6 +141,7 @@ DEPENDENCIES:
   - Quick
   - RemoteAssets (from `DevelopmentModules/RemoteAssets`)
   - TabBarHome (from `DevelopmentModules/TabBarHome`)
+  - WeathyLogin (from `DevelopmentModules/WeathyLogin`)
 
 SPEC REPOS:
   trunk:
@@ -165,6 +177,8 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   DSCore:
     :path: DevelopmentModules/DSCore
+  Favorites:
+    :path: DevelopmentModules/Favorites
   Home:
     :path: DevelopmentModules/Home
   NetworkInterface:
@@ -175,6 +189,8 @@ EXTERNAL SOURCES:
     :path: DevelopmentModules/RemoteAssets
   TabBarHome:
     :path: DevelopmentModules/TabBarHome
+  WeathyLogin:
+    :path: DevelopmentModules/WeathyLogin
 
 SPEC CHECKSUMS:
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
@@ -186,6 +202,7 @@ SPEC CHECKSUMS:
   CwlPosixPreconditionTesting: ecd095aa2129e740b44301c34571e8d85906fb88
   CwlPreconditionTesting: 67a0047dd4de4382b93442c0e3f25207f984f35a
   DSCore: 92295142634176576267e45a23f6ef5103b0add7
+  Favorites: 22d4a6fe6da41ddbda118351253924a123de5a64
   FirebaseAppCheckInterop: 347aa09a805219a31249b58fc956888e9fcb314b
   FirebaseAuth: 0304982cfe00df8d49bf533bc4becd3de36c7122
   FirebaseAuthInterop: a919d415797d23b7bfe195a04f322b86c65020ef
@@ -210,8 +227,9 @@ SPEC CHECKSUMS:
   Quick: b8bec97cd4b9f21da0472d45580f763b801fc353
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
   RemoteAssets: 3eff083e9134d0318c2dadfe8bb515383c587a46
-  TabBarHome: 35968c7dbb86ddc8cd0f4b7bd04e839badcc0fc1
+  TabBarHome: c873750ed0c596ec73987a6233e8d351f8156924
+  WeathyLogin: f9620b9a4c484354682fb1231f00de343d784354
 
-PODFILE CHECKSUM: 75c8e3e81b496eeefb37eaaf81aa491e4c8ddd0b
+PODFILE CHECKSUM: 65f3d51af442668fda3c361d362a8e225c3ec014
 
 COCOAPODS: 1.16.2

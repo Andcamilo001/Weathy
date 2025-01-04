@@ -6,24 +6,35 @@
 //
 
 import UIKit
+import Home
+import Favorites
 
-class TabBarHomeViewController: UITabBarController {
+public class TabBarHomeViewController: UITabBarController, UITabBarControllerDelegate {
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         setupTabBar()
+        self.delegate = self
     }
 
     private func setupTabBar() {
-        let homeVC = UIViewController()
-        let favoritesVC = UIViewController() // Cambiado a UIViewController
-        let newsVC = UIViewController() // Cambiado a UIViewController
+        let homeVC = SearchRouter.createModule()
+        let favoritesVC = FavoritesRouter.createModule()
+        let newsVC = UIViewController()
+        let logoutVC = LogoutSesionViewController()
         
         homeVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house.fill"), tag: 0)
         favoritesVC.tabBarItem = UITabBarItem(title: "Favorites", image: UIImage(systemName: "star.fill"), tag: 1)
         newsVC.tabBarItem = UITabBarItem(title: "News", image: UIImage(systemName: "newspaper.fill"), tag: 2)
+        logoutVC.tabBarItem = UITabBarItem(title: "Logout", image: UIImage(systemName: "person.circle.fill"), tag: 3)
 
-        let viewControllers = [homeVC, favoritesVC, newsVC]
+        let viewControllers = [homeVC, favoritesVC, newsVC, logoutVC]
         self.viewControllers = viewControllers
+    }
+    
+    public func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        if let favoritesVC = viewController as? FavoritesViewController {
+            favoritesVC.viewDidLoad()
+        }
     }
 }

@@ -17,6 +17,7 @@
 		ED4ABE572D28BA1C00215738 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE562D28BA1C00215738 /* SearchPresenter.swift */; };
 		ED4ABE5A2D28BA6400215738 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE592D28BA6400215738 /* SearchRouter.swift */; };
 		ED4ABE5D2D28BCA800215738 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE5C2D28BCA800215738 /* SearchViewController.swift */; };
+		ED4ABE7E2D29820600215738 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE7D2D29820600215738 /* CityTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		ED4ABE562D28BA1C00215738 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
 		ED4ABE592D28BA6400215738 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
 		ED4ABE5C2D28BCA800215738 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		ED4ABE7D2D29820600215738 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 		FBB671A1513B6675D03A189E /* Pods-Home.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home.release.xcconfig"; path = "Target Support Files/Pods-Home/Pods-Home.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				ED4ABE5C2D28BCA800215738 /* SearchViewController.swift */,
+				ED4ABE7D2D29820600215738 /* CityTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4ABE7E2D29820600215738 /* CityTableViewCell.swift in Sources */,
 				ED4ABE5D2D28BCA800215738 /* SearchViewController.swift in Sources */,
 				ED4ABE5A2D28BA6400215738 /* SearchRouter.swift in Sources */,
 				ED4ABE542D28B97A00215738 /* SearchInteractor.swift in Sources */,

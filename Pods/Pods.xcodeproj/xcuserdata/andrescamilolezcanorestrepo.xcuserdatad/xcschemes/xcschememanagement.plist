@@ -81,404 +81,418 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
-		<key>FirebaseAppCheckInterop.xcscheme</key>
+		<key>Favorites.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
-		<key>FirebaseAuth-FirebaseAuth_Privacy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>14</integer>
-		</dict>
-		<key>FirebaseAuth.xcscheme</key>
+		<key>FirebaseAppCheckInterop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
-		<key>FirebaseAuthInterop.xcscheme</key>
+		<key>FirebaseAuth-FirebaseAuth_Privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
-		<key>FirebaseAuthUI-FirebaseAuthUI.xcscheme</key>
+		<key>FirebaseAuth.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>14</integer>
 		</dict>
-		<key>FirebaseAuthUI.xcscheme</key>
+		<key>FirebaseAuthInterop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
-		<key>FirebaseCore-FirebaseCore_Privacy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>19</integer>
-		</dict>
-		<key>FirebaseCore.xcscheme</key>
+		<key>FirebaseAuthUI-FirebaseAuthUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
-		<key>FirebaseCoreExtension-FirebaseCoreExtension_Privacy.xcscheme</key>
+		<key>FirebaseAuthUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>17</integer>
 		</dict>
-		<key>FirebaseCoreExtension.xcscheme</key>
+		<key>FirebaseCore-FirebaseCore_Privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
-		<key>FirebaseCoreInternal-FirebaseCoreInternal_Privacy.xcscheme</key>
+		<key>FirebaseCore.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>19</integer>
 		</dict>
-		<key>FirebaseCoreInternal.xcscheme</key>
+		<key>FirebaseCoreExtension-FirebaseCoreExtension_Privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
-		<key>FirebaseGoogleAuthUI-FirebaseGoogleAuthUI.xcscheme</key>
+		<key>FirebaseCoreExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>21</integer>
 		</dict>
-		<key>FirebaseGoogleAuthUI.xcscheme</key>
+		<key>FirebaseCoreInternal-FirebaseCoreInternal_Privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
-		<key>FirebaseUI.xcscheme</key>
+		<key>FirebaseCoreInternal.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
+		<key>FirebaseGoogleAuthUI-FirebaseGoogleAuthUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
-		<key>GTMAppAuth-GTMAppAuth_Privacy.xcscheme</key>
+		<key>FirebaseGoogleAuthUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>25</integer>
 		</dict>
-		<key>GTMAppAuth.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>31</integer>
-		</dict>
-		<key>GTMSessionFetcher-GTMSessionFetcher_Core_Privacy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>34</integer>
-		</dict>
-		<key>GTMSessionFetcher.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>33</integer>
-		</dict>
-		<key>GoogleSignIn-GoogleSignIn.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>28</integer>
-		</dict>
-		<key>GoogleSignIn.xcscheme</key>
+		<key>FirebaseUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
-		<key>GoogleUtilities-GoogleUtilities_Privacy.xcscheme</key>
+		<key>GTMAppAuth-GTMAppAuth_Privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>33</integer>
 		</dict>
-		<key>GoogleUtilities.xcscheme</key>
+		<key>GTMAppAuth.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>32</integer>
 		</dict>
-		<key>Home.xcscheme</key>
+		<key>GTMSessionFetcher-GTMSessionFetcher_Core_Privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>35</integer>
 		</dict>
-		<key>NetworkInterface.xcscheme</key>
+		<key>GTMSessionFetcher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>39</integer>
+			<integer>34</integer>
 		</dict>
-		<key>NetworkWeathy.xcscheme</key>
+		<key>GoogleSignIn-GoogleSignIn.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>40</integer>
+			<integer>29</integer>
 		</dict>
-		<key>Nimble-Snapshots.xcscheme</key>
+		<key>GoogleSignIn.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>28</integer>
 		</dict>
-		<key>Nimble.xcscheme</key>
+		<key>GoogleUtilities-GoogleUtilities_Privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>31</integer>
 		</dict>
-		<key>Pods-DSCore-DSCoreTests.xcscheme</key>
+		<key>GoogleUtilities.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>30</integer>
 		</dict>
-		<key>Pods-DSCore.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>45</integer>
-		</dict>
-		<key>Pods-Description-DescriptionTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>44</integer>
-		</dict>
-		<key>Pods-Description.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>43</integer>
-		</dict>
-		<key>Pods-Favorites-FavoritesTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>48</integer>
-		</dict>
-		<key>Pods-Favorites.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>47</integer>
-		</dict>
-		<key>Pods-Home-HomeTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>50</integer>
-		</dict>
-		<key>Pods-Home.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>49</integer>
-		</dict>
-		<key>Pods-NetworkInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>51</integer>
-		</dict>
-		<key>Pods-NetworkWeathy-NetworkWeathyTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>53</integer>
-		</dict>
-		<key>Pods-NetworkWeathy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>52</integer>
-		</dict>
-		<key>Pods-News-NewsTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>55</integer>
-		</dict>
-		<key>Pods-News.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>54</integer>
-		</dict>
-		<key>Pods-RemoteAssets-RemoteAssetsTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>57</integer>
-		</dict>
-		<key>Pods-RemoteAssets.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>56</integer>
-		</dict>
-		<key>Pods-TabBarHome-TabBarHomeTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>59</integer>
-		</dict>
-		<key>Pods-TabBarHome.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>58</integer>
-		</dict>
-		<key>Pods-Weathy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>60</integer>
-		</dict>
-		<key>Pods-WeathyLogin-WeathyLoginTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>62</integer>
-		</dict>
-		<key>Pods-WeathyLogin.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>61</integer>
-		</dict>
-		<key>PromisesObjC-FBLPromises_Privacy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>64</integer>
-		</dict>
-		<key>PromisesObjC.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>63</integer>
-		</dict>
-		<key>Quick.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>65</integer>
-		</dict>
-		<key>RecaptchaInterop.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>66</integer>
-		</dict>
-		<key>RemoteAssets.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>67</integer>
-		</dict>
-		<key>TabBarHome.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>68</integer>
-		</dict>
-		<key>iOSSnapshotTestCase.xcscheme</key>
+		<key>Home.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>36</integer>
 		</dict>
+		<key>NetworkInterface.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
+		<key>NetworkWeathy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>41</integer>
+		</dict>
+		<key>Nimble-Snapshots.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
+		<key>Nimble.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
+		<key>Pods-DSCore-DSCoreTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>47</integer>
+		</dict>
+		<key>Pods-DSCore.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>46</integer>
+		</dict>
+		<key>Pods-Description-DescriptionTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
+		<key>Pods-Description.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
+		<key>Pods-Favorites-FavoritesTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>49</integer>
+		</dict>
+		<key>Pods-Favorites.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>48</integer>
+		</dict>
+		<key>Pods-Home-HomeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>51</integer>
+		</dict>
+		<key>Pods-Home.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>50</integer>
+		</dict>
+		<key>Pods-NetworkInterface.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
+		<key>Pods-NetworkWeathy-NetworkWeathyTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>54</integer>
+		</dict>
+		<key>Pods-NetworkWeathy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>53</integer>
+		</dict>
+		<key>Pods-News-NewsTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>56</integer>
+		</dict>
+		<key>Pods-News.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>55</integer>
+		</dict>
+		<key>Pods-RemoteAssets-RemoteAssetsTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>58</integer>
+		</dict>
+		<key>Pods-RemoteAssets.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>57</integer>
+		</dict>
+		<key>Pods-TabBarHome-TabBarHomeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>60</integer>
+		</dict>
+		<key>Pods-TabBarHome.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>59</integer>
+		</dict>
+		<key>Pods-Weathy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>61</integer>
+		</dict>
+		<key>Pods-WeathyLogin-WeathyLoginTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>63</integer>
+		</dict>
+		<key>Pods-WeathyLogin.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>62</integer>
+		</dict>
+		<key>PromisesObjC-FBLPromises_Privacy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>65</integer>
+		</dict>
+		<key>PromisesObjC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>64</integer>
+		</dict>
+		<key>Quick.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>66</integer>
+		</dict>
+		<key>RecaptchaInterop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>67</integer>
+		</dict>
+		<key>RemoteAssets.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
+		<key>TabBarHome.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>69</integer>
+		</dict>
+		<key>WeathyLogin.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>70</integer>
+		</dict>
+		<key>iOSSnapshotTestCase.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>37</integer>
+		</dict>
 		<key>lottie-ios-LottiePrivacyInfo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>38</integer>
+			<integer>39</integer>
 		</dict>
 		<key>lottie-ios.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>37</integer>
+			<integer>38</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

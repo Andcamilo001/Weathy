@@ -16,5 +16,3 @@ struct SearchResult: Decodable {
     let lon: Double
     let url: String
 }
-
-typealias FavoriteLocation = [String: Int]

@@ -12,6 +12,9 @@
 		ED4ABDB92D28AD2400215738 /* TabBarHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABDB82D28AD2400215738 /* TabBarHomeTests.swift */; };
 		ED4ABDBA2D28AD2400215738 /* TabBarHome.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4ABDAE2D28AD2400215738 /* TabBarHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED4ABE5F2D28BF0200215738 /* TabBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE5E2D28BF0200215738 /* TabBarHome.swift */; };
+		ED4ABE7C2D29634700215738 /* TabHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE7B2D29634700215738 /* TabHomeView.swift */; };
+		ED4ABE832D29900C00215738 /* LogoutSesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE822D29900C00215738 /* LogoutSesion.swift */; };
+		ED4ABE882D2995E900215738 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4ABE872D2995E900215738 /* Logout.swift */; };
 		FB96168AEF305AD95146FDB6 /* Pods_TabBarHome_TabBarHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED088E40FB04F4B454BE9F6C /* Pods_TabBarHome_TabBarHomeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,9 @@
 		ED4ABDB32D28AD2400215738 /* TabBarHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4ABDB82D28AD2400215738 /* TabBarHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHomeTests.swift; sourceTree = "<group>"; };
 		ED4ABE5E2D28BF0200215738 /* TabBarHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHome.swift; sourceTree = "<group>"; };
+		ED4ABE7B2D29634700215738 /* TabHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHomeView.swift; sourceTree = "<group>"; };
+		ED4ABE822D29900C00215738 /* LogoutSesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutSesion.swift; sourceTree = "<group>"; };
+		ED4ABE872D2995E900215738 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +114,10 @@
 		ED4ABDAD2D28AD2400215738 /* TabBarHome */ = {
 			isa = PBXGroup;
 			children = (
+				ED4ABE842D29957E00215738 /* Logout */,
 				ED4ABDAE2D28AD2400215738 /* TabBarHome.h */,
 				ED4ABE5E2D28BF0200215738 /* TabBarHome.swift */,
+				ED4ABE7B2D29634700215738 /* TabHomeView.swift */,
 			);
 			path = TabBarHome;
 			sourceTree = "<group>";
@@ -120,6 +128,15 @@
 				ED4ABDB82D28AD2400215738 /* TabBarHomeTests.swift */,
 			);
 			path = TabBarHomeTests;
+			sourceTree = "<group>";
+		};
+		ED4ABE842D29957E00215738 /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				ED4ABE822D29900C00215738 /* LogoutSesion.swift */,
+				ED4ABE872D2995E900215738 /* Logout.swift */,
+			);
+			path = Logout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +317,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED4ABE5F2D28BF0200215738 /* TabBarHome.swift in Sources */,
+				ED4ABE882D2995E900215738 /* Logout.swift in Sources */,
+				ED4ABE832D29900C00215738 /* LogoutSesion.swift in Sources */,
+				ED4ABE7C2D29634700215738 /* TabHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

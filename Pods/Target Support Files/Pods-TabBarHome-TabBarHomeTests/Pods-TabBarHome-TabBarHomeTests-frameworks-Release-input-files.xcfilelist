@@ -1,8 +1,9 @@
 ${PODS_ROOT}/Target Support Files/Pods-TabBarHome-TabBarHomeTests/Pods-TabBarHome-TabBarHomeTests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Favorites/Favorites.framework
+${BUILT_PRODUCTS_DIR}/Home/Home.framework
 ${BUILT_PRODUCTS_DIR}/NetworkInterface/NetworkInterface.framework
 ${BUILT_PRODUCTS_DIR}/NetworkWeathy/NetworkWeathy.framework
-${BUILT_PRODUCTS_DIR}/Home/Home.framework
 ${BUILT_PRODUCTS_DIR}/CwlCatchException/CwlCatchException.framework
 ${BUILT_PRODUCTS_DIR}/CwlCatchExceptionSupport/CwlCatchExceptionSupport.framework
 ${BUILT_PRODUCTS_DIR}/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.framework

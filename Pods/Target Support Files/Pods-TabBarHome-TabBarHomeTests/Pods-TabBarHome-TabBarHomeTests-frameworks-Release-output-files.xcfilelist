@@ -1,7 +1,8 @@
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Favorites.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Home.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetworkInterface.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetworkWeathy.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Home.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CwlCatchException.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CwlCatchExceptionSupport.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CwlMachBadInstructionHandler.framework

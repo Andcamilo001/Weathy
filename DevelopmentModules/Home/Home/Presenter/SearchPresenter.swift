@@ -10,13 +10,12 @@ import Foundation
 protocol SearchPresenterProtocol: AnyObject {
     func searchCities(with query: String)
     func didSelectCity(_ city: SearchResult)
-    func showFavoriteLocations()
+    func firstAppear()
 }
 
 protocol SearchViewProtocol: AnyObject {
     func showCities(_ cities: [SearchResult])
     func showError(_ error: String)
-    func showFavoriteLocations(_ favoriteLocations: [String: Int])
     func showEmptyState()
 }
 
@@ -32,15 +31,13 @@ class SearchPresenter: SearchPresenterProtocol {
             interactor?.searchCities(with: query)
         }
     }
-
-    func didSelectCity(_ city: SearchResult) {
-        interactor?.incrementFavoriteLocation(cityName: city.name, countryName: city.country)
-        router?.navigateToCityDetail(city)
+    
+    func firstAppear() {
+        view?.showEmptyState()
     }
 
-    func showFavoriteLocations() {
-        let favoriteLocations = interactor?.getFavoriteLocations() ?? [:]
-        view?.showFavoriteLocations(favoriteLocations)
+    func didSelectCity(_ city: SearchResult) {
+        router?.navigateToCityDetail(city)
     }
 }
 
@@ -51,9 +48,5 @@ extension SearchPresenter: SearchInteractorOutputProtocol {
 
     func didFailWithError(_ error: Error) {
         view?.showError(error.localizedDescription)
-    }
-
-    func didRetrieveFavoriteLocations(_ favoriteLocations: [String: Int]) {
-        view?.showFavoriteLocations(favoriteLocations)
     }
 }

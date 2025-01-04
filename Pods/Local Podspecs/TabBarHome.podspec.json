@@ -24,7 +24,8 @@
     "5.0"
   ],
   "dependencies": {
-    "Home": []
+    "Home": [],
+    "Favorites": []
   },
   "swift_version": "5.0"
 }

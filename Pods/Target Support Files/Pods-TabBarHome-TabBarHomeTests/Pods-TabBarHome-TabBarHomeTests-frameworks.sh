@@ -177,9 +177,10 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Favorites/Favorites.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Home/Home.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NetworkInterface/NetworkInterface.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NetworkWeathy/NetworkWeathy.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Home/Home.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CwlCatchException/CwlCatchException.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CwlCatchExceptionSupport/CwlCatchExceptionSupport.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.framework"
@@ -192,9 +193,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Favorites/Favorites.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Home/Home.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NetworkInterface/NetworkInterface.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NetworkWeathy/NetworkWeathy.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Home/Home.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CwlCatchException/CwlCatchException.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CwlCatchExceptionSupport/CwlCatchExceptionSupport.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.framework"
