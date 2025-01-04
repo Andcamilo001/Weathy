@@ -1,0 +1,6 @@
+framework module Pods_RemoteAssets_RemoteAssetsTests {
+  umbrella header "Pods-RemoteAssets-RemoteAssetsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
