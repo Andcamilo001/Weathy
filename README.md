@@ -29,7 +29,6 @@ La aplicación está construida de manera modular, permitiendo una fácil extens
 La gestión de dependencias se realiza con **CocoaPods**. A continuación, se describen las dependencias principales utilizadas en el proyecto:
 
 - **Alamofire**: Para realizar las peticiones HTTP.
-- **SnapKit**: Para la creación de interfaces con AutoLayout de manera declarativa.
 - **XCTest** y **SnapshotTesting**: Para pruebas unitarias y de UI (Snapshots).
 
 ## Instalación
